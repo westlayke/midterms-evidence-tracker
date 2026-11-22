@@ -54,7 +54,9 @@ table.eng thead { display: table-header-group; }
  svg.chart{max-width:100%;height:auto}
  .wide{overflow-x:auto}
  a{overflow-wrap:anywhere}
- #leaderboard table.t td:last-child a,#leaderboard table.t td:nth-child(3){white-space:nowrap;overflow-wrap:normal}
+ #leaderboard table.t td:nth-child(3),#leaderboard table.t td:nth-child(4){white-space:nowrap;text-align:center}
+ #leaderboard table.t th:nth-child(4){width:64px;white-space:normal;text-align:center}
+ #leaderboard table.t th,#leaderboard table.t td{padding:8px 4px}
  #leaderboard table.t{display:table;width:100%}
 }
 @media print { p.nav { display:none } }
